@@ -1,4 +1,4 @@
 # window_lattice
 
-##Intro
+## Intro
 **CHINESE WINDOWS LATTICE**
