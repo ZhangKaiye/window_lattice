@@ -1,6 +1,11 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "zecoder:block/example_block"
+    "down": "zecoder:block/acacia_planks",
+    "up": "zecoder:block/acacia_planks",
+    "north": "zecoder:block/example_block",
+    "south": "zecoder:block/example_block",
+    "west": "zecoder:block/example_block",
+    "east": "zecoder:block/example_block"
   }
 }

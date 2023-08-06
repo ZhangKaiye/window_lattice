@@ -18,7 +18,6 @@ public class ExampleMod implements ModInitializer {
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
     public static final Logger LOGGER = LoggerFactory.getLogger("zecoder");
-
 	public static final Block EXAMPLE_BLOCK = new Block(FabricBlockSettings.create().strength(4.0f).nonOpaque());
 	@Override
 	public void onInitialize() {
@@ -29,7 +28,7 @@ public class ExampleMod implements ModInitializer {
 		Registry.register(Registries.BLOCK,
 				new Identifier("zecoder", "example_block"), EXAMPLE_BLOCK);
 		Registry.register(Registries.ITEM,
-				new Identifier("zecoder", "custom_item"),
+				new Identifier("zecoder", "example_block"),
 				new BlockItem(EXAMPLE_BLOCK, new FabricItemSettings()));
 	}
 }
