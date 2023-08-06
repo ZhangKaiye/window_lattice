@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "zecoder:block/example_block" }
+  }
+}
